@@ -297,6 +297,9 @@ message CommandFilter {
 
   // If true, do not include synchronisation commands in results
   bool suppress_device_side_sync_commands = 6;
+
+  // If true, only shows end of frame commands
+  bool only_end_of_frames = 7;
 }
 
 // CommandTree is a path to a hierarchy of command tree nodes.
