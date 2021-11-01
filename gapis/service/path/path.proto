@@ -300,6 +300,9 @@ message CommandFilter {
 
   // If true, only shows end of frame commands
   bool only_end_of_frames = 7;
+
+  // If true, only show frame buffer observations
+  bool only_framebuffer_observations = 8;
 }
 
 // CommandTree is a path to a hierarchy of command tree nodes.
